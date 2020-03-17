@@ -44,7 +44,7 @@ function vowel_count(str1)
     }
   }
   if(vowelcount!=0)
-  out = [str1,vcount,arrayOfVowel];
+  out = [str1,vowelcount,arrayOfVowel];
   return out;
 }
 console.log(vowel_count(ProGrad_1));
